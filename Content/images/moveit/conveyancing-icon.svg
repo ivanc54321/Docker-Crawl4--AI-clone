@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="152px" height="164px" viewBox="0 0 152 164" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="12" y="12" width="128" height="152" rx="8"></rect>
+        <rect id="path-2" x="0" y="0" width="128" height="152" rx="8"></rect>
+        <filter x="-1.7%" y="-1.7%" width="109.3%" height="114.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-4" x="55.140625" y="26.6933594" width="8" height="66" rx="4"></rect>
+        <rect id="path-5" x="0" y="0" width="67" height="67" rx="33.5"></rect>
+        <rect id="path-6" x="9" y="9" width="49" height="49" rx="24.5"></rect>
+        <filter x="-8.2%" y="-8.2%" width="116.3%" height="116.3%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="8" dy="6" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0509803922   0 0 0 0 0.17254902   0 0 0 0 0.329411765  0 0 0 0.1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-8" x="0" y="0" width="49" height="49" rx="24.5"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-21.000000, -9.000000)">
+            <g id="Group-3" transform="translate(21.000000, 9.000000)">
+                <g id="paper" transform="translate(12.000000, 0.000000)">
+                    <g id="Group">
+                        <g id="Rectangle">
+                            <use fill="#D8EEFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <rect stroke="#0D2C54" stroke-width="4" x="14" y="14" width="124" height="148" rx="8"></rect>
+                        </g>
+                        <g id="Rectangle">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <rect stroke="#0D2C54" stroke-width="4" x="2" y="2" width="124" height="148" rx="8"></rect>
+                        </g>
+                    </g>
+                    <g id="Group-4" transform="translate(13.000000, 36.000000)">
+                        <rect id="Rectangle-4" fill-opacity="0.25" fill="#0D2C54" x="0" y="92" width="39" height="4" rx="2"></rect>
+                        <rect id="Rectangle-4" fill-opacity="0.25" fill="#0D2C54" x="0" y="80" width="39" height="4" rx="2"></rect>
+                        <rect id="Rectangle-4" fill-opacity="0.25" fill="#0D2C54" x="0" y="60" width="102" height="4" rx="2"></rect>
+                        <rect id="Rectangle-4" fill-opacity="0.25" fill="#0D2C54" x="0" y="48" width="102" height="4" rx="2"></rect>
+                        <rect id="Rectangle-4" fill-opacity="0.25" fill="#0D2C54" x="0" y="36" width="102" height="4" rx="2"></rect>
+                        <rect id="Rectangle-4" fill-opacity="0.25" fill="#0D2C54" x="0" y="24" width="102" height="4" rx="2"></rect>
+                        <rect id="Rectangle-4" fill-opacity="0.25" fill="#0D2C54" x="0" y="12" width="102" height="4" rx="2"></rect>
+                        <rect id="Rectangle-4" fill-opacity="0.25" fill="#0D2C54" x="0" y="0" width="102" height="4" rx="2"></rect>
+                        <path d="M87,102 C94.7319865,102 101,95.7319865 101,88 C101,80.2680135 94.7319865,74 87,74 C79.2680135,74 73,80.2680135 73,88 C73,95.7319865 79.2680135,102 87,102 Z" id="Path" fill="#E25A4E"></path>
+                        <path d="M87,99 C93.0751322,99 98,94.0751322 98,88 C98,81.9248678 93.0751322,77 87,77 C80.9248678,77 76,81.9248678 76,88 C76,94.0751322 80.9248678,99 87,99 Z M87,103 C78.7157288,103 72,96.2842712 72,88 C72,79.7157288 78.7157288,73 87,73 C95.2842712,73 102,79.7157288 102,88 C102,96.2842712 95.2842712,103 87,103 Z" id="Oval" fill="#0D2C54" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+                <g id="magnifying-glass" filter="url(#filter-3)" transform="translate(0.000000, 12.000000)">
+                    <g id="Rectangle-3" transform="translate(59.140625, 59.693359) rotate(-45.000000) translate(-59.140625, -59.693359) ">
+                        <use fill="#31AF9A" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <rect stroke="#0D2C54" stroke-width="4" x="53.140625" y="24.6933594" width="12" height="70" rx="6"></rect>
+                    </g>
+                    <g id="Group-2">
+                        <g id="Rectangle-2">
+                            <use fill="#31AF9A" fill-rule="evenodd" xlink:href="#path-5"></use>
+                            <rect stroke="#0D2C54" stroke-width="4" x="2" y="2" width="63" height="63" rx="31.5"></rect>
+                        </g>
+                        <g id="Rectangle-2">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                            <rect stroke="#0D2C54" stroke-width="4" x="11" y="11" width="45" height="45" rx="22.5"></rect>
+                        </g>
+                    </g>
+                    <g id="Group-6" transform="translate(9.000000, 9.000000)">
+                        <mask id="mask-9" fill="white">
+                            <use xlink:href="#path-8"></use>
+                        </mask>
+                        <use id="Mask" fill="#FFFFFF" xlink:href="#path-8"></use>
+                        <g mask="url(#mask-9)">
+                            <g transform="translate(8.000000, -5.000000)">
+                                <rect id="Rectangle-5" fill="#0D2C54" x="0" y="0" width="6" height="68"></rect>
+                                <rect id="Rectangle-6" fill="#C2CAD4" x="15" y="16" width="34" height="6" rx="3"></rect>
+                                <rect id="Rectangle-6" fill="#C2CAD4" x="15" y="30" width="34" height="6" rx="3"></rect>
+                                <rect id="Rectangle-6" fill="#C2CAD4" x="15" y="44" width="34" height="6" rx="3"></rect>
+                            </g>
+                        </g>
+                        <rect id="inner" stroke="#0D2C54" stroke-width="4" x="2" y="2" width="45" height="45" rx="22.5"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

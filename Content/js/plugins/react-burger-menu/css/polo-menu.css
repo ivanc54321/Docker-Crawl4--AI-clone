@@ -1,0 +1,255 @@
+﻿.gototop-button {
+  background-color: #c92237;
+  opacity: 0;
+  right: -50px !important;
+  transition: all ease 0.5s;
+  padding: 10px 17px 12px !important;
+  bottom: 150px !important;
+}
+@media only screen and (max-width: 479px), only screen and (min-width: 480px) and (max-width: 767px) {
+  .gototop-button {
+    bottom: 200px !important;
+  }
+}
+.gototop-button.visible {
+  opacity: 0.8;
+  right: 0px !important;
+}
+.gototop-button:hover {
+  opacity: 1;
+  transition: all ease 0.5s;
+}
+.menu-wrap {
+  position: fixed;
+  right: -300px;
+  top: 0px;
+  z-index: 1001;
+  width: 300px;
+  height: 100%;
+  font-size: 1.15em;
+  -webkit-transform: translate3d(0px, 0, 0);
+  transform: translate3d(0px, 0, 0);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  background-color: #c92237;
+}
+@media print {
+  .menu-wrap {
+    display: none !important;
+  }
+}
+.menu-wrap a {
+  color: #f5f5f5;
+}
+.menu-wrap a:hover {
+  color: white;
+}
+.menu-wrap a:focus {
+  color: white;
+}
+.content-wrap {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+}
+.wrapper::before {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 150%;
+  background: rgba(0, 0, 0, 0.8);
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0s 0.3s;
+  transition: opacity 0.3s, transform 0s 0.3s;
+  -webkit-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+}
+.wrapper.fp-forced-responsive::before {
+  background-color: #373737;
+}
+.menu-button {
+  position: fixed;
+  z-index: 1000;
+  margin: 1em;
+  padding: 0;
+  width: 2.5em;
+  height: 2.25em;
+  border: none;
+  text-indent: 2.5em;
+  font-size: 1.5em;
+  color: transparent;
+  background: transparent;
+}
+.menu-button::before {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  bottom: 0.5em;
+  left: 0.5em;
+  background: linear-gradient(#373a47 20%, transparent 20%, transparent 40%, #373a47 40%, #373a47 60%, transparent 60%, transparent 80%, #373a47 80%);
+  content: '';
+}
+.menu-button:hover {
+  opacity: 0.6;
+}
+.close-button {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  overflow: hidden;
+  text-indent: 16px;
+  border: none;
+  z-index: 1001;
+  background: transparent;
+  color: transparent;
+}
+.close-button::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  background: #fff;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.close-button::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  background: #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.menu {
+  background: #c92237;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+}
+.menu .contact-logo {
+  display: inline-block;
+}
+.menu .contact-logo svg {
+  width: 120px;
+}
+.menu .close-btn,
+.menu a {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 14px 17px;
+  font-size: 15px;
+  border-bottom: 1px solid #db2a40;
+}
+.menu .close-btn:hover,
+.menu a:hover {
+  background-color: #db2a40;
+}
+.menu .close-btn .fa,
+.menu a .fa {
+  margin-right: 10px;
+}
+.menu .close-btn {
+  background-color: #b31e31;
+}
+.menu .close-btn:hover {
+  background-color: #db2a40;
+}
+.menu a.social {
+  width: 25%;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  padding: 14px 0px;
+  font-size: 24px;
+  line-height: 18px;
+}
+.menu a.social.facebook {
+  background-color: #3B5998 !important;
+}
+.menu a.social.facebook:hover {
+  background-color: #4264aa !important;
+}
+.menu a.social.twitter {
+  background-color: #00b4d4 !important;
+}
+.menu a.social.twitter:hover {
+  background-color: #00caee !important;
+}
+.menu a.social.linkedin {
+  background-color: #4875B4 !important;
+}
+.menu a.social.linkedin:hover {
+  background-color: #5982bd !important;
+}
+.menu a.social.instagram {
+  background-color: #cd486b !important;
+}
+.menu a.social.instagram:hover {
+  background-color: #d25c7b !important;
+}
+.icon-list {
+  width: 280px;
+}
+.icon-list a {
+  display: block;
+  padding: 0.8em;
+}
+.icon-list a i {
+  opacity: 0.5;
+}
+.icon-list a span {
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 0.75em;
+}
+.morph-shape {
+  position: absolute;
+  width: 120px;
+  height: 100%;
+  top: 0;
+  right: 0;
+  fill: #373a47;
+  z-index: 1000;
+}
+.show-menu .menu-wrap {
+  -webkit-transform: translate3d(-300px, 0, 0);
+  transform: translate3d(-300px, 0, 0);
+  -webkit-box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.show-menu .content-wrap {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  -webkit-transform: translate3d(100px, 0, 0);
+  transform: translate3d(100px, 0, 0);
+}
+.show-menu .wrapper::before {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
